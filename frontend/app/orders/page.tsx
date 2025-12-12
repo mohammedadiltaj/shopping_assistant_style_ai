@@ -7,6 +7,7 @@ import axios from 'axios'
 import Header from '@/components/Header'
 import { motion } from 'framer-motion'
 import { Package, Truck, Clock, RefreshCw } from 'lucide-react'
+import { API_URL } from '@/lib/config'
 
 interface OrderLineItem {
   sku_id: number
@@ -43,7 +44,7 @@ export default function OrdersPage() {
         // @app.get("/api/orders", response_model=List[OrderResponse])
         // async def get_orders(customer_id: int, db: Session = Depends(get_db)):
         // It requires customer_id as query param.
-        const res = await axios.get(`http://localhost:8000/api/orders?customer_id=${user.customer_id}`, {
+        const res = await axios.get(`${API_URL}/api/orders?customer_id=${user.customer_id}`, {
           headers: { Authorization: `Bearer ${token}` }
         })
         setOrders(res.data)

@@ -8,9 +8,13 @@ from sqlalchemy.pool import NullPool
 import os
 from typing import Generator
 
+# DATABASE_URL = os.getenv(
+#     "DATABASE_URL",
+#     "postgresql://shopping_user:shopping_pass@localhost:5432/shopping_db"
+# )
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "postgresql://shopping_user:shopping_pass@localhost:5432/shopping_db"
+    "postgresql://postgres:shopping_pass@db.qcoblrkolhgmtzsnpclu.supabase.co:5432/postgres"
 )
 
 # Create engine with pgvector support

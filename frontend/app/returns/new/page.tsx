@@ -7,6 +7,7 @@ import axios from 'axios'
 import Header from '@/components/Header'
 import { motion } from 'framer-motion'
 import { ArrowLeft, AlertCircle } from 'lucide-react'
+import { API_URL } from '@/lib/config'
 
 export default function NewReturnPage() {
     const { user, token } = useAuthStore()
@@ -25,7 +26,7 @@ export default function NewReturnPage() {
 
         setLoading(true)
         try {
-            await axios.post('http://localhost:8000/api/returns', {
+            await axios.post(`${API_URL}/api/returns`, {
                 order_id: Number(orderId),
                 return_reason: reason,
                 notes: notes

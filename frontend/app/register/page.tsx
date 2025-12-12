@@ -7,6 +7,7 @@ import { motion } from 'framer-motion'
 import axios from 'axios'
 import Header from '@/components/Header'
 import { AlertCircle } from 'lucide-react'
+import { API_URL } from '@/lib/config'
 
 export default function RegisterPage() {
     const router = useRouter()
@@ -25,7 +26,7 @@ export default function RegisterPage() {
         setLoading(true)
 
         try {
-            await axios.post('http://localhost:8000/api/auth/register', formData)
+            await axios.post(`${API_URL}/api/auth/register`, formData)
             router.push('/login?registered=true')
         } catch (err: any) {
             setError(err.response?.data?.detail || 'Registration failed. Please try again.')

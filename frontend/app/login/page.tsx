@@ -8,6 +8,7 @@ import axios from 'axios'
 import { useAuthStore } from '@/store/authStore'
 import Header from '@/components/Header'
 import { AlertCircle } from 'lucide-react'
+import { API_URL } from '@/lib/config'
 
 export default function LoginPage() {
     const router = useRouter()
@@ -24,7 +25,7 @@ export default function LoginPage() {
 
         try {
             // 1. Login to get token
-            const loginRes = await axios.post('http://localhost:8000/api/auth/login', {
+            const loginRes = await axios.post(`${API_URL}/api/auth/login`, {
                 email,
                 password
             })

@@ -7,6 +7,7 @@ import axios from 'axios'
 import Header from '@/components/Header'
 import { motion } from 'framer-motion'
 import { RefreshCw, Package, ArrowLeft } from 'lucide-react'
+import { API_URL } from '@/lib/config'
 
 export default function ReturnsPage() {
   const { user, token } = useAuthStore()
@@ -22,7 +23,7 @@ export default function ReturnsPage() {
 
     const fetchReturns = async () => {
       try {
-        const res = await axios.get(`http://localhost:8000/api/returns?customer_id=${user.customer_id}`, {
+        const res = await axios.get(`${API_URL}/api/returns?customer_id=${user.customer_id}`, {
           headers: { Authorization: `Bearer ${token}` }
         })
         setReturns(res.data)
@@ -73,8 +74,8 @@ export default function ReturnsPage() {
                     <div>
                       <p className="text-sm text-gray-500">Status</p>
                       <span className={`px-2 py-1 rounded-full text-xs font-bold ${req.return_status === 'APPROVED' ? 'bg-green-100 text-green-700' :
-                          req.return_status === 'REJECTED' ? 'bg-red-100 text-red-700' :
-                            'bg-yellow-100 text-yellow-700'
+                        req.return_status === 'REJECTED' ? 'bg-red-100 text-red-700' :
+                          'bg-yellow-100 text-yellow-700'
                         }`}>
                         {req.return_status}
                       </span>
