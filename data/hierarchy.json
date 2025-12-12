@@ -1,0 +1,471 @@
+[
+  {
+    "hierarchy_id": 1,
+    "hierarchy_level": "Gender",
+    "hierarchy_name": "Women",
+    "parent_hierarchy_id": null,
+    "hierarchy_path": "Women"
+  },
+  {
+    "hierarchy_id": 2,
+    "hierarchy_level": "Category",
+    "hierarchy_name": "Dresses",
+    "parent_hierarchy_id": 1,
+    "hierarchy_path": "Women/Dresses"
+  },
+  {
+    "hierarchy_id": 3,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Casual",
+    "parent_hierarchy_id": 2,
+    "hierarchy_path": "Women/Dresses/Casual"
+  },
+  {
+    "hierarchy_id": 4,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Formal",
+    "parent_hierarchy_id": 2,
+    "hierarchy_path": "Women/Dresses/Formal"
+  },
+  {
+    "hierarchy_id": 5,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Cocktail",
+    "parent_hierarchy_id": 2,
+    "hierarchy_path": "Women/Dresses/Cocktail"
+  },
+  {
+    "hierarchy_id": 6,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Maxi",
+    "parent_hierarchy_id": 2,
+    "hierarchy_path": "Women/Dresses/Maxi"
+  },
+  {
+    "hierarchy_id": 7,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Midi",
+    "parent_hierarchy_id": 2,
+    "hierarchy_path": "Women/Dresses/Midi"
+  },
+  {
+    "hierarchy_id": 8,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Mini",
+    "parent_hierarchy_id": 2,
+    "hierarchy_path": "Women/Dresses/Mini"
+  },
+  {
+    "hierarchy_id": 9,
+    "hierarchy_level": "Category",
+    "hierarchy_name": "Tops",
+    "parent_hierarchy_id": 1,
+    "hierarchy_path": "Women/Tops"
+  },
+  {
+    "hierarchy_id": 10,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Blouses",
+    "parent_hierarchy_id": 9,
+    "hierarchy_path": "Women/Tops/Blouses"
+  },
+  {
+    "hierarchy_id": 11,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "T-Shirts",
+    "parent_hierarchy_id": 9,
+    "hierarchy_path": "Women/Tops/T-Shirts"
+  },
+  {
+    "hierarchy_id": 12,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Sweaters",
+    "parent_hierarchy_id": 9,
+    "hierarchy_path": "Women/Tops/Sweaters"
+  },
+  {
+    "hierarchy_id": 13,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Hoodies",
+    "parent_hierarchy_id": 9,
+    "hierarchy_path": "Women/Tops/Hoodies"
+  },
+  {
+    "hierarchy_id": 14,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Tank Tops",
+    "parent_hierarchy_id": 9,
+    "hierarchy_path": "Women/Tops/Tank Tops"
+  },
+  {
+    "hierarchy_id": 15,
+    "hierarchy_level": "Category",
+    "hierarchy_name": "Bottoms",
+    "parent_hierarchy_id": 1,
+    "hierarchy_path": "Women/Bottoms"
+  },
+  {
+    "hierarchy_id": 16,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Jeans",
+    "parent_hierarchy_id": 15,
+    "hierarchy_path": "Women/Bottoms/Jeans"
+  },
+  {
+    "hierarchy_id": 17,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Pants",
+    "parent_hierarchy_id": 15,
+    "hierarchy_path": "Women/Bottoms/Pants"
+  },
+  {
+    "hierarchy_id": 18,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Skirts",
+    "parent_hierarchy_id": 15,
+    "hierarchy_path": "Women/Bottoms/Skirts"
+  },
+  {
+    "hierarchy_id": 19,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Shorts",
+    "parent_hierarchy_id": 15,
+    "hierarchy_path": "Women/Bottoms/Shorts"
+  },
+  {
+    "hierarchy_id": 20,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Leggings",
+    "parent_hierarchy_id": 15,
+    "hierarchy_path": "Women/Bottoms/Leggings"
+  },
+  {
+    "hierarchy_id": 21,
+    "hierarchy_level": "Category",
+    "hierarchy_name": "Outerwear",
+    "parent_hierarchy_id": 1,
+    "hierarchy_path": "Women/Outerwear"
+  },
+  {
+    "hierarchy_id": 22,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Jackets",
+    "parent_hierarchy_id": 21,
+    "hierarchy_path": "Women/Outerwear/Jackets"
+  },
+  {
+    "hierarchy_id": 23,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Coats",
+    "parent_hierarchy_id": 21,
+    "hierarchy_path": "Women/Outerwear/Coats"
+  },
+  {
+    "hierarchy_id": 24,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Blazers",
+    "parent_hierarchy_id": 21,
+    "hierarchy_path": "Women/Outerwear/Blazers"
+  },
+  {
+    "hierarchy_id": 25,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Cardigans",
+    "parent_hierarchy_id": 21,
+    "hierarchy_path": "Women/Outerwear/Cardigans"
+  },
+  {
+    "hierarchy_id": 26,
+    "hierarchy_level": "Category",
+    "hierarchy_name": "Shoes",
+    "parent_hierarchy_id": 1,
+    "hierarchy_path": "Women/Shoes"
+  },
+  {
+    "hierarchy_id": 27,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Sneakers",
+    "parent_hierarchy_id": 26,
+    "hierarchy_path": "Women/Shoes/Sneakers"
+  },
+  {
+    "hierarchy_id": 28,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Heels",
+    "parent_hierarchy_id": 26,
+    "hierarchy_path": "Women/Shoes/Heels"
+  },
+  {
+    "hierarchy_id": 29,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Boots",
+    "parent_hierarchy_id": 26,
+    "hierarchy_path": "Women/Shoes/Boots"
+  },
+  {
+    "hierarchy_id": 30,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Flats",
+    "parent_hierarchy_id": 26,
+    "hierarchy_path": "Women/Shoes/Flats"
+  },
+  {
+    "hierarchy_id": 31,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Sandals",
+    "parent_hierarchy_id": 26,
+    "hierarchy_path": "Women/Shoes/Sandals"
+  },
+  {
+    "hierarchy_id": 32,
+    "hierarchy_level": "Category",
+    "hierarchy_name": "Accessories",
+    "parent_hierarchy_id": 1,
+    "hierarchy_path": "Women/Accessories"
+  },
+  {
+    "hierarchy_id": 33,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Bags",
+    "parent_hierarchy_id": 32,
+    "hierarchy_path": "Women/Accessories/Bags"
+  },
+  {
+    "hierarchy_id": 34,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Jewelry",
+    "parent_hierarchy_id": 32,
+    "hierarchy_path": "Women/Accessories/Jewelry"
+  },
+  {
+    "hierarchy_id": 35,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Belts",
+    "parent_hierarchy_id": 32,
+    "hierarchy_path": "Women/Accessories/Belts"
+  },
+  {
+    "hierarchy_id": 36,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Hats",
+    "parent_hierarchy_id": 32,
+    "hierarchy_path": "Women/Accessories/Hats"
+  },
+  {
+    "hierarchy_id": 37,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Scarves",
+    "parent_hierarchy_id": 32,
+    "hierarchy_path": "Women/Accessories/Scarves"
+  },
+  {
+    "hierarchy_id": 38,
+    "hierarchy_level": "Gender",
+    "hierarchy_name": "Men",
+    "parent_hierarchy_id": null,
+    "hierarchy_path": "Men"
+  },
+  {
+    "hierarchy_id": 39,
+    "hierarchy_level": "Category",
+    "hierarchy_name": "Tops",
+    "parent_hierarchy_id": 38,
+    "hierarchy_path": "Men/Tops"
+  },
+  {
+    "hierarchy_id": 40,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "T-Shirts",
+    "parent_hierarchy_id": 39,
+    "hierarchy_path": "Men/Tops/T-Shirts"
+  },
+  {
+    "hierarchy_id": 41,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Dress Shirts",
+    "parent_hierarchy_id": 39,
+    "hierarchy_path": "Men/Tops/Dress Shirts"
+  },
+  {
+    "hierarchy_id": 42,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Polo Shirts",
+    "parent_hierarchy_id": 39,
+    "hierarchy_path": "Men/Tops/Polo Shirts"
+  },
+  {
+    "hierarchy_id": 43,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Sweaters",
+    "parent_hierarchy_id": 39,
+    "hierarchy_path": "Men/Tops/Sweaters"
+  },
+  {
+    "hierarchy_id": 44,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Hoodies",
+    "parent_hierarchy_id": 39,
+    "hierarchy_path": "Men/Tops/Hoodies"
+  },
+  {
+    "hierarchy_id": 45,
+    "hierarchy_level": "Category",
+    "hierarchy_name": "Bottoms",
+    "parent_hierarchy_id": 38,
+    "hierarchy_path": "Men/Bottoms"
+  },
+  {
+    "hierarchy_id": 46,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Jeans",
+    "parent_hierarchy_id": 45,
+    "hierarchy_path": "Men/Bottoms/Jeans"
+  },
+  {
+    "hierarchy_id": 47,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Chinos",
+    "parent_hierarchy_id": 45,
+    "hierarchy_path": "Men/Bottoms/Chinos"
+  },
+  {
+    "hierarchy_id": 48,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Dress Pants",
+    "parent_hierarchy_id": 45,
+    "hierarchy_path": "Men/Bottoms/Dress Pants"
+  },
+  {
+    "hierarchy_id": 49,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Shorts",
+    "parent_hierarchy_id": 45,
+    "hierarchy_path": "Men/Bottoms/Shorts"
+  },
+  {
+    "hierarchy_id": 50,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Sweatpants",
+    "parent_hierarchy_id": 45,
+    "hierarchy_path": "Men/Bottoms/Sweatpants"
+  },
+  {
+    "hierarchy_id": 51,
+    "hierarchy_level": "Category",
+    "hierarchy_name": "Outerwear",
+    "parent_hierarchy_id": 38,
+    "hierarchy_path": "Men/Outerwear"
+  },
+  {
+    "hierarchy_id": 52,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Jackets",
+    "parent_hierarchy_id": 51,
+    "hierarchy_path": "Men/Outerwear/Jackets"
+  },
+  {
+    "hierarchy_id": 53,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Coats",
+    "parent_hierarchy_id": 51,
+    "hierarchy_path": "Men/Outerwear/Coats"
+  },
+  {
+    "hierarchy_id": 54,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Blazers",
+    "parent_hierarchy_id": 51,
+    "hierarchy_path": "Men/Outerwear/Blazers"
+  },
+  {
+    "hierarchy_id": 55,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Vests",
+    "parent_hierarchy_id": 51,
+    "hierarchy_path": "Men/Outerwear/Vests"
+  },
+  {
+    "hierarchy_id": 56,
+    "hierarchy_level": "Category",
+    "hierarchy_name": "Shoes",
+    "parent_hierarchy_id": 38,
+    "hierarchy_path": "Men/Shoes"
+  },
+  {
+    "hierarchy_id": 57,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Sneakers",
+    "parent_hierarchy_id": 56,
+    "hierarchy_path": "Men/Shoes/Sneakers"
+  },
+  {
+    "hierarchy_id": 58,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Dress Shoes",
+    "parent_hierarchy_id": 56,
+    "hierarchy_path": "Men/Shoes/Dress Shoes"
+  },
+  {
+    "hierarchy_id": 59,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Boots",
+    "parent_hierarchy_id": 56,
+    "hierarchy_path": "Men/Shoes/Boots"
+  },
+  {
+    "hierarchy_id": 60,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Loafers",
+    "parent_hierarchy_id": 56,
+    "hierarchy_path": "Men/Shoes/Loafers"
+  },
+  {
+    "hierarchy_id": 61,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Sandals",
+    "parent_hierarchy_id": 56,
+    "hierarchy_path": "Men/Shoes/Sandals"
+  },
+  {
+    "hierarchy_id": 62,
+    "hierarchy_level": "Category",
+    "hierarchy_name": "Accessories",
+    "parent_hierarchy_id": 38,
+    "hierarchy_path": "Men/Accessories"
+  },
+  {
+    "hierarchy_id": 63,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Watches",
+    "parent_hierarchy_id": 62,
+    "hierarchy_path": "Men/Accessories/Watches"
+  },
+  {
+    "hierarchy_id": 64,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Belts",
+    "parent_hierarchy_id": 62,
+    "hierarchy_path": "Men/Accessories/Belts"
+  },
+  {
+    "hierarchy_id": 65,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Wallets",
+    "parent_hierarchy_id": 62,
+    "hierarchy_path": "Men/Accessories/Wallets"
+  },
+  {
+    "hierarchy_id": 66,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Hats",
+    "parent_hierarchy_id": 62,
+    "hierarchy_path": "Men/Accessories/Hats"
+  },
+  {
+    "hierarchy_id": 67,
+    "hierarchy_level": "Subcategory",
+    "hierarchy_name": "Ties",
+    "parent_hierarchy_id": 62,
+    "hierarchy_path": "Men/Accessories/Ties"
+  }
+]
