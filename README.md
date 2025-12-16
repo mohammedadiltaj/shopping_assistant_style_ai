@@ -10,6 +10,36 @@ A production-ready, AI-powered shopping assistant with multi-agent orchestration
 - **Agents**: OpenAI-based multi-agent system with specialized agents
 - **Data Model**: Oracle Retail Reference Data Model (RDM)
 
+```mermaid
+graph TD
+    Client[Client Browser] <-->|HTTPS| Frontend[Frontend Next.js 14]
+    Frontend <-->|REST API| Backend[Backend FastAPI]
+    
+    subgraph "Backend - Multi-Agent System"
+        Backend --> Orchestrator[Orchestrator Agent]
+        Orchestrator -->|Delegates| Stylist[Stylist Agent]
+        Orchestrator -->|Delegates| Search[Search Agent]
+        Orchestrator -->|Delegates| Lookbook[Lookbook Agent]
+        Orchestrator -->|Delegates| Checkout[Checkout Agent]
+        Orchestrator -->|Delegates| Returns[Returns Agent]
+        Orchestrator -->|Delegates| Recommender[Recommender Agent]
+    end
+    
+    subgraph "Data Layer"
+        DB[(PostgreSQL)]
+        VectorDB[(pgvector Embeddings)]
+    end
+    
+    subgraph "External Services"
+        LLM[LLM Provider OpenAI / Groq]
+    end
+
+    Stylist & Search & Lookbook & Checkout & Returns & Recommender <-->|Context/Prompt| LLM
+    Stylist & Search & Lookbook & Checkout & Returns & Recommender <-->|CRUD| DB
+    Search & Stylist & Recommender <-->|Similarity Search| VectorDB
+```
+
+
 ## ✨ Features
 
 - 🤖 **7 Specialized AI Agents** (Orchestrator, Stylist, Search, Lookbook, Checkout, Returns, Recommender)
